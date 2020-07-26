@@ -8,28 +8,28 @@ import img3 from '../../../assets/03.png';
 import img4 from '../../../assets/04.png';
 import img5 from '../../../assets/05.png';
 import img6 from '../../../assets/06.png';
-import img7 from '../../../assets/01.png';
+import img7 from '../../../assets/07.png';
 
 const items = [
   {
   key:String(Math.random()),
   img:img1,
-  label:'Doações'
+  label:'Recarga'
   },
   {
   key:String(Math.random()),
   img:img2,
-  label:'Doações'
+  label:'Uber'
   },
   {
   key:String(Math.random()),
   img:img3,
-  label:'Doações'
+  label:'Onibus'
   },
   {
   key:String(Math.random()),
   img:img4,
-  label:'Doações'
+  label:'Sky'
   },
   {
   key:String(Math.random()),
@@ -39,12 +39,12 @@ const items = [
   {
   key:String(Math.random()),
   img:img6,
-  label:'Doações'
+  label:'Boleto'
   },
   {
   key:String(Math.random()),
   img:img7,
-  label:'Doações'
+  label:'FAQ'
   },
 ];
 

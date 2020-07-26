@@ -5,6 +5,8 @@ import { Wrapper,Header,BalanceContainer,BalanceTitle,Balance,Container } from '
 
 import Suggestions from '../../Components/Suggestions';
 import Activities from '../../Components/Activities';
+import Tips from '../../Components/Tips';
+import Banner from '../../Components/Banner';
 
 const Home = () => {
   return (
@@ -23,6 +25,8 @@ const Home = () => {
       </Header>
       <Suggestions/>
       <Activities/>
+      <Tips/>
+      <Banner/>
       </Container>
     </Wrapper>
     );
