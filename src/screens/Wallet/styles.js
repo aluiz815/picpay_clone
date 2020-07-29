@@ -52,7 +52,7 @@ margin-top:40px;
 export const Action = styled.TouchableOpacity`
 flex-direction:row;
 align-items:center;
-border:1px solid rgba(255,255,255,0.6);
+border:1px solid #fff;
 width:150px;
 height:45px;
 border-radius:25px;
