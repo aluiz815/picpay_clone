@@ -21,6 +21,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "It's a clone of picpay ui",
+    "githubUrl": "https://github.com/aluiz815/picpay_clone"
   }
 }
