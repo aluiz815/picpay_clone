@@ -8,6 +8,7 @@ import HomeScreen from './screens/Home';
 import WalletScreen from './screens/Wallet';
 import PayScreen from './screens/Pay';
 import NotificationScreen from './screens/Notification';
+import SettingsScreen from './screens/Settings';
 
 const Tab = createBottomTabNavigator();
 
@@ -77,7 +78,7 @@ const Navigation = () => {
         title:"Notificação"
       }}
       />
-      <Tab.Screen name="Settings" component={PayScreen}
+      <Tab.Screen name="Settings" component={SettingsScreen}
       options={{
         title:"Ajustes"
       }}
