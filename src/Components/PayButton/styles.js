@@ -9,7 +9,7 @@ export const Button = styled(LinearGradient)`
   justify-content: center;
 `;
 export const Label = styled.Text`
-  color:${({focused }) => focused ? '#000' : '#fff'};
+  color:${({focused }) => focused ? '#fff' : '#fff'};
   font-size:12px;
 `;
 
